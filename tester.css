@@ -1,0 +1,203 @@
+.header
+{
+	margin: auto;
+	width: auto;
+	height: auto;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+	font-size: 80pt;
+	background-color: white;
+
+}
+nav
+{
+	text-align: center;
+        align-content: center;
+        align-items: center;
+	color: white;
+	border: none;
+	top: 0;
+	width: 100%;
+        
+}
+li 
+{
+   display: inline;
+   font-family: avenir;
+   font-weight: bold;
+}
+li a
+{
+  display: inline;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover
+{
+  background-color: black;
+  opacity: 0.8;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.active
+{
+  background-color: #4CAF50;
+}
+body
+{
+	background-color: #3d93a2;
+	color: white;
+	padding: 40px;
+	text-align: center;
+        align-content: center;
+        align-items: center;
+}
+.page2
+{
+        background-color: #e4c479;
+}
+.page3
+{
+        background-color: #de7548;
+}
+p
+{
+    text-align: left;
+    padding-left: 220px;
+    font-size: 20pt;
+    font-family: avenir;
+    font-weight: bold;
+}
+.aboutmetext
+{
+    text-align: center;
+    padding-right: 250px;
+    font-size: 25pt;
+    font-family: avenir;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    /* tester below */
+    position: absolute;
+    top: 20%;
+
+}
+.image1
+{
+    padding-left: 50px;
+    width: 70%;
+    height: auto;
+}
+.image2
+{
+    padding-right: 50px;
+    width: 70%;
+    height: auto;
+    
+}
+.projects
+{
+    display: center;
+    padding-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+}
+.projecttext
+{
+    font-size: 50pt;
+    text-align: center;
+    padding-right: 200px;
+}
+.webresume
+{
+    padding-top: 50px;
+    width: 60%;
+    height: auto;
+}
+div
+{
+  background-color: black;
+}
+footer
+{
+  font-family: avenir;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: auto right;
+}
+footer a
+{
+  font-family: avenir;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: fixed;
+  bottom: auto;
+  left: auto left;
+  right: 0;
+}
+/*
+Hover
+over 
+image
+testing
+*/
+.container
+{
+  background-color: #de7548;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  float: left;
+  left: 30px;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #de7548;
+}
+
+.container:hover .overlay
+{
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: avenir;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #de7548;
+}
